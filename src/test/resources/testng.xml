@@ -15,7 +15,6 @@
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="tests.LoginTest"/>
-				
 		</classes>
 	</test>
 

@@ -14,7 +14,8 @@
 	<test name="TestExampleOneChrome" parallel="methods" thread-count="2">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="tests.LoginTest"/>
+			<class name="tests.TestOne"/>
+			<class name="tests.TestTwo"/>
 		</classes>
 	</test>
 
