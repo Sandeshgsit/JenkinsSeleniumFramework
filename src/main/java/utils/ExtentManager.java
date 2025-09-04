@@ -12,7 +12,7 @@ public class ExtentManager {
     public static ExtentReports getInstance() {
         if (extent == null) {
         	String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
-            String folderPath = "test-output/ExtentReport_" + timestamp;
+            String folderPath = "test-output";
             String reportPath = folderPath + "/ExtentReport.html";
         	
             ExtentSparkReporter reporter = new ExtentSparkReporter(reportPath);
